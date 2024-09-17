@@ -1,0 +1,71 @@
+body{
+	background: gray;
+}
+.container{
+	background: aquamarine;
+	width: 100%;
+	padding: 5px;
+	margin: auto; /*Centrar el container*/
+	margin-top: 20px;
+}
+.headerMenu{
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: aquamarine;
+	width: 100%;
+	color: white;
+}
+.noticias{
+	font-family: Verdana;
+	padding-left: 50px;
+}
+
+.container main img{
+	width: 100%;
+}
+
+.container main{
+	font-family: Verdana;
+	padding-left: 20px;
+}
+
+/*header nav ul li{
+	list-style: none;
+	float: left;
+} */
+
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+
+.menu ul li a{
+	color: yellow;
+	text-decoration: none;
+	display: inline-block;
+	padding: 10px;
+	/*background-color: red;*/
+}
+/* Evento - sobre el objeto --- hover */
+
+.menu ul li a:hover{   /*NO SE PUEDE DESPEGAR DE LOS :*/
+	color: black;
+	background-color: white;
+}
+
+footer{
+	background-color: rgba(47, 1, 1, 0.5);
+	width: 100%;
+	padding: 20px;
+	text-align: center;
+	color: white;
+}
+
+
+.ejemploLinea1{
+	background-color: blue;
+}
+.elementoBloque1{
+	background-color: red;
+}

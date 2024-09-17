@@ -1,0 +1,66 @@
+.container{
+	background: gray;
+	width: 100%;
+	padding: 5px;
+	margin: auto; /*Centrar el container*/
+	margin-top: 20px;
+}
+
+.headerMenu{
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: gray;
+	width: 100%;
+	color: white;
+}
+.container2{
+	background: gray;
+	width: 100%;
+	padding: 5px;
+	margin: auto; /*Centrar el container*/
+	margin-top: 20px;
+}
+
+.headerMenu2{
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: gray;
+	width: 100%;
+	color: white;
+}
+.menu2 ul li{
+	list-style: none;
+	float: left;
+}
+
+.menu ul li a:hover{  
+	color: black;
+	background-color: white;
+}
+
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+
+.menu ul li a{
+	color: aliceblue;
+	text-decoration: none;
+	display: inline-block;
+	padding: 10px;
+	/*background-color: red;*/
+}
+
+.container main img{
+	width: 80%;
+}
+
+footer{
+	background-color: rgba(47, 1, 1, 0.5);
+	width: 100%;
+	padding: 20px;
+	text-align: center;
+	color: white;
+}
